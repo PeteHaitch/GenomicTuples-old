@@ -1,0 +1,56 @@
+Package: GenomicTuples
+Type: Package
+Title: Representation and Manipulation of Genomic Tuples
+Version: 1.4.0
+Date: 2015-04-11
+Authors@R: c(person("Peter", "Hickey", role = c("aut", "cre"),
+    email = "peter.hickey@gmail.com"),
+    person("Marcin", "Cieslik", role = "ctb",
+    email = "marcin.cieslik@gmail.com"),
+    person("Herve", "Pages", role = "ctb"))
+Author: Peter Hickey <peter.hickey@gmail.com>, with contributions from Marcin
+    Cieslik and Herve Pages.
+Maintainer: Peter Hickey <peter.hickey@gmail.com>
+Description: GenomicTuples defines general purpose containers for storing
+    genomic tuples. It aims to provide functionality for tuples of genomic
+    co-ordinates that are analogous to those available for genomic ranges in
+    the GenomicRanges Bioconductor package.
+URL: www.github.com/PeteHaitch/GenomicTuples
+BugReports: https://github.com/PeteHaitch/GenomicTuples/issues
+biocViews: Infrastructure, DataRepresentation, Sequencing
+VignetteBuilder: knitr
+Depends:
+    R (>= 3.2.0),
+    GenomicRanges (>= 1.19.47),
+    GenomeInfoDb,
+    BiocGenerics,
+    methods
+Imports:
+    Rcpp (>= 0.11.2),
+    S4Vectors,
+    Biobase,
+    IRanges
+Suggests:
+    testthat,
+    knitr,
+    BiocStyle,
+    rmarkdown
+LinkingTo: Rcpp
+License: Artistic-2.0
+Collate:
+    'AllGenerics.R'
+    'AllUtilities.R'
+    'GTuples-class.R'
+    'GTuples-comparison.R'
+    'GTuplesList-class.R'
+    'GenomicTuples.R'
+    'RcppExports.R'
+    'coverage-methods.R'
+    'findOverlaps-methods.R'
+    'inter-tuple-methods.R'
+    'intra-tuple-methods.R'
+    'mapCoords-methods.R'
+    'nearest-methods.R'
+    'setops-methods.R'
+    'tile-methods.R'
+    'zzz.R'

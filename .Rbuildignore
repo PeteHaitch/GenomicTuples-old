@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+TODO.Rmd
+TODO.pdf
+.travis.yml
+.Rprofile
+^tmp/
+.coveralls.R
+^CHANGELOG\.md$
