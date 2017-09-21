@@ -1,6 +1,0 @@
-packrat/lib*/
-.Rproj.user
-.Rhistory
-inst/doc
-src/*.o
-src/*.so
